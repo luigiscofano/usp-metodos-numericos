@@ -8,7 +8,7 @@
 
 Portfólio de **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334**. Contexto: materiais de Métodos Numéricos e Aplicações de 2025. O nome da pasta recuperada identifica MAP312201/T01-Computação.
 
-> **Procedência:** cinco notebooks foram recuperados e preservados em versões sanitizadas em `acervo/`. A pasta da disciplina lista ainda um sexto, de introdução a Python, cujo destino não foi recuperado. Os sete notebooks de `notebooks/` são roteiros novos/reelaborados nesta edição de 2026, com assistência de IA, código verificável e identificação das extensões. Não são apresentados como cópias autenticadas de entregas acadêmicas. [Detalhes →](docs/PROCEDENCIA.md)
+> **Procedência:** cinco notebooks foram recuperados e preservados em versões sanitizadas em `acervo/`. A pasta da disciplina lista ainda um sexto, de introdução a Python, cujo destino não foi recuperado. Os sete notebooks de `notebooks/` são roteiros novos/reelaborados nesta edição de 2026, com código verificável e identificação das extensões. Não são apresentados como cópias autenticadas de entregas acadêmicas. [Detalhes →](docs/PROCEDENCIA.md)
 
 ## Todos os notebooks de estudo
 

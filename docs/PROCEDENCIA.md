@@ -15,7 +15,7 @@ Os arquivos recuperados misturam textos/códigos fornecidos pela disciplina e re
 | `notebooks/02` a `06` | Roteiros novos/reelaborados sobre os temas recuperados, com biblioteca, asserções e novas figuras |
 | `notebooks/07` | Extensão nova de GPS sintético; não há notebook histórico recuperado correspondente |
 
-A edição de estudo foi preparada com assistência de IA em 2026. Não se afirma que esses sete roteiros correspondam exatamente às entregas ou às respostas da disciplina em 2025.
+A edição de estudo foi preparada em 2026. Não se afirma que esses sete roteiros correspondam exatamente às entregas ou às respostas da disciplina em 2025.
 
 ## Sanitização do acervo
 
