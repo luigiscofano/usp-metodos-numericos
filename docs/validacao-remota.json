@@ -1,0 +1,19 @@
+{
+  "data": "2026-10-31",
+  "run_id": 41222104656,
+  "run_url": "https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656",
+  "commit": "8ff832d0a208488b9942bc7aeb47c77568002571",
+  "branch": "test/execucao-e-ci",
+  "pull_request": 4,
+  "conclusao": "success",
+  "testes_por_plataforma": 29,
+  "plataformas": [
+    "ubuntu-24.04",
+    "macos-15",
+    "windows-latest"
+  ],
+  "notebooks_jupyter_aprovados": 7,
+  "acervo_sanitizado_aprovado": 5,
+  "artifact_url": "https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656/artifacts/13050262644",
+  "artifact_expires_at": "2027-01-29T16:56:52Z"
+}

@@ -10,3 +10,10 @@
 - Executor com kernel Jupyter e alternativa local via IPython em processos novos.
 - Documentação matemática, pedagógica, de procedência e de validação.
 - Publicação no GitHub organizada em branches e PRs por entregas concretas.
+
+## 1.0.1 — evidência remota em 31/10/2026
+
+- Publicação em seis PRs por entregas concretas.
+- Confirmação de 29 testes em três plataformas e sete notebooks via kernel Jupyter no GitHub Actions.
+- Links para HTMLs, notebooks executados e figuras nos artefatos da CI.
+- Inventário público sem hashes dos arquivos privados de origem.

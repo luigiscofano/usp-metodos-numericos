@@ -2,6 +2,8 @@
 
 # Métodos Numéricos e Aplicações
 
+[![Verificação numérica](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml/badge.svg?branch=main)](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml)
+
 **Do algoritmo à evidência: notebooks, implementações didáticas, gráficos e testes para compreender aproximação, convergência e erro.**
 
 Portfólio de **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334**. Contexto: materiais de Métodos Numéricos e Aplicações de 2025. O nome da pasta recuperada identifica MAP312201/T01-Computação.
@@ -79,8 +81,12 @@ Não há downloads de dados, montagem de Drive, credenciais ou chamadas a servi�
 
 As dependências diretas do ambiente de reprodução estão fixadas em `requirements.txt`; o pacote didático e seus intervalos de compatibilidade estão em `pyproject.toml`. Isso não equivale a um lock completo de dependências transitivas.
 
+## Validação confirmada
+
+**29 testes aprovados em Linux, macOS e Windows; sete notebooks executados com kernel Jupyter novo.** [Execução confirmada](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656) · [Baixar HTMLs, notebooks executados e figuras](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656/artifacts/13050262644). O artefato da CI tem retenção de 90 dias e pode exigir login no GitHub; os fontes permanecem neste repositório.
+
 ## Histórico de organização
 
-As entregas estão divididas por biblioteca numérica, notebooks, acervo, testes/automação e documentação. Branches e PRs devem registrar mudanças reais desta edição, sem datas retroativas ou revisões fictícias. [Guia de contribuição](CONTRIBUTING.md).
+As entregas estão divididas por biblioteca numérica, notebooks, acervo, testes/automação e documentação. As branches e os [PRs integrados](docs/PUBLICACAO.md) registram mudanças reais desta edição, sem datas retroativas ou revisões fictícias. [Guia de contribuição](CONTRIBUTING.md).
 
 **Limites principais:** implementações para estudo, aritmética finita, FFT radix-2, DFT densa com limite de memória, EDO de passo fixo e GPS simplificado. Não são substitutos gerais para bibliotecas científicas de produção nem para validação física.

@@ -12,9 +12,11 @@ A organização e publicação foram realizadas em 31/10/2026. Os PRs representa
 | [#4](https://github.com/luigiscofano/usp-metodos-numericos/pull/4) | `test/execucao-e-ci` | Testes, executores, CI e templates |
 | [#5](https://github.com/luigiscofano/usp-metodos-numericos/pull/5) | `docs/objetivos-e-metodos` | Objetivos pedagógicos, métodos, procedência e apresentação |
 
+| [#6](https://github.com/luigiscofano/usp-metodos-numericos/pull/6) | `docs/evidencias-ci` | Evidência de execução remota e acesso aos artefatos |
+
 ## Validação e limites
 
-Os resultados locais estão em [VALIDACAO.md](VALIDACAO.md). A execução remota pode ser acompanhada no [GitHub Actions](https://github.com/luigiscofano/usp-metodos-numericos/actions).
+Os resultados locais estão em [VALIDACAO.md](VALIDACAO.md). A [execução remota confirmada](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656) aprovou os quatro jobs. Os notebooks foram executados em kernel Jupyter e exportados em HTML; [artefatos](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656/artifacts/13050262644). As execuções posteriores podem ser acompanhadas no [GitHub Actions](https://github.com/luigiscofano/usp-metodos-numericos/actions).
 
 O acervo preserva lacunas históricas e não é apresentado como corrigido. O original introdutório de Python permanece não recuperado. O roteiro introdutório atual e o estudo GPS são materiais novos, identificados como tais.
 
