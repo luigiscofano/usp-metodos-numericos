@@ -12,7 +12,7 @@ Data da preparação: 31/10/2026. Ambiente local: Python 3.12, NumPy 2.3.5, SciP
 | Células de código executadas nessa edição de estudo | 32 |
 | Figuras científicas geradas | 14 SVGs |
 | Execução local em kernel Jupyter | Não concluída: sandbox impediu a comunicação do kernel |
-| GitHub Actions | Publicado; execução remota em acompanhamento |
+| GitHub Actions | Aprovado: 29 testes em Linux/macOS/Windows e sete notebooks via Jupyter |
 
 Os resultados detalhados estão em [validacao-local.json](validacao-local.json). Contadores e saídas textuais locais foram preservados nos notebooks. As figuras ficam em `assets/figuras/`, com galeria ao fim dos roteiros.
 
@@ -26,7 +26,13 @@ python scripts/executar_notebooks.py
 
 A alternativa `python scripts/executar_sem_kernel.py` usa IPython em um processo novo por notebook. Ela executa as células e asserções reais, mas não verifica o protocolo ou integração de um kernel Jupyter. O modo usado está identificado na metadata dos arquivos.
 
-O executor padrão com nbclient e o workflow foram preparados para essa verificação em ambiente com kernel funcional. A configuração de um workflow não é evidência de sucesso remoto.
+## Evidência remota
+
+A [execução 41222104656](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656) terminou com sucesso em 31/10/2026 no commit `8ff832d0a208488b9942bc7aeb47c77568002571`, branch `test/execucao-e-ci` (PR #4, posteriormente integrado). Os quatro jobs passaram: testes em Ubuntu 24.04, macOS 15 e Windows, e execução dos sete notebooks via nbclient em kernels Jupyter novos. A verificação do acervo também passou.
+
+[Artefato com sete HTMLs, sete notebooks executados, relatório JSON e 14 figuras](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656/artifacts/13050262644), sujeito à retenção de 90 dias do GitHub. O conteúdo numérico e a configuração de CI dessa execução permanecem iguais nos PRs de documentação subsequentes. A limitação do kernel local descrita acima não ocorreu no runner remoto.
+
+O registro estruturado está em [validacao-remota.json](validacao-remota.json).
 
 ## O que não foi afirmado
 
