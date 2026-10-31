@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "usp-metodos-numericos"
+version = "1.0.0"
+description = "Laboratório didático de métodos numéricos com notebooks verificáveis"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2.1,<3", "scipy>=1.14,<2", "matplotlib>=3.9,<4"]
+
+[tool.setuptools.packages.find]
+include = ["numericos*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
