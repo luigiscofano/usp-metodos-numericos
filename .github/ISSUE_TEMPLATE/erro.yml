@@ -1,0 +1,16 @@
+name: Erro numerico ou de execucao
+description: Registre parâmetros, célula, ambiente e resultado esperado.
+body:
+  - type: textarea
+    id: reproduzir
+    attributes:
+      label: Como reproduzir
+      description: Notebook/célula, parâmetros, seed, versões e comando.
+    validations:
+      required: true
+  - type: textarea
+    id: esperado
+    attributes:
+      label: Esperado, observado e critério de erro
+    validations:
+      required: true
