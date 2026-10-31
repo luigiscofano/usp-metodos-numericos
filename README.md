@@ -1,92 +1,142 @@
-<p align="center"><img src="assets/capa.svg" alt="Métodos Numéricos: um laboratório de experimentos reproduzíveis" width="100%"></p>
+# Métodos Numéricos · Sete experimentos reproduzíveis
 
-# Métodos Numéricos e Aplicações
+> Notebooks e biblioteca Python para estudar raízes, sistemas lineares, FFT, interpolação, EDO e GPS sintético, com gráficos, asserções e acervo acadêmico separado.
 
-[![Verificação numérica](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml/badge.svg?branch=main)](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml)
+![Visão geral de Métodos Numéricos · Sete experimentos reproduzíveis](assets/capa.svg)
 
-**Do algoritmo à evidência: notebooks, implementações didáticas, gráficos e testes para compreender aproximação, convergência e erro.**
+[![Verificação](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml/badge.svg?branch=main)](https://github.com/luigiscofano/usp-metodos-numericos/actions/workflows/verificacao.yml)
 
-Portfólio de **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334**. Contexto: materiais de Métodos Numéricos e Aplicações de 2025. O nome da pasta recuperada identifica MAP312201/T01-Computação.
+[O que faz](#o-que-este-projeto-faz) · [Módulos](#funcionalidades-e-módulos) · [Executar](#como-executar) · [Aprendizagem](#o-que-desenvolvi-e-aprendi) · [Estado atual](#estado-atual) · [Documentação](#documentação-e-navegação)
 
-> **Procedência:** cinco notebooks foram recuperados e preservados em versões sanitizadas em `acervo/`. A pasta da disciplina lista ainda um sexto, de introdução a Python, cujo destino não foi recuperado. Os sete notebooks de `notebooks/` são roteiros novos/reelaborados nesta edição de 2026, com código verificável e identificação das extensões. Não são apresentados como cópias autenticadas de entregas acadêmicas. [Detalhes →](docs/PROCEDENCIA.md)
+## O que este projeto faz
 
-## Todos os notebooks de estudo
+É um laboratório de computação científica com **sete notebooks de estudo**. Cada roteiro explica um problema, implementa ou utiliza métodos numéricos e compara resultados por gráficos, resíduos e testes. Uma biblioteca Python reúne implementações reutilizáveis; cinco notebooks recuperados da disciplina ficam preservados em `acervo/`.
 
-| Notebook | Conteúdo e experimento | Evidência de execução |
+Um notebook mistura texto, fórmulas, código e resultados. Ele pode ser lido no GitHub, aberto em um editor Jupyter ou executado automaticamente para gerar HTML. Os roteiros de estudo são independentes; não é preciso executar os sete para usar apenas um método da biblioteca.
+
+## Qual problema resolve
+
+Computadores representam números com precisão finita e frequentemente resolvem problemas por aproximação. O projeto ajuda a distinguir uma resposta que apenas parece plausível de uma aproximação sustentada por critérios de erro, convergência e referência. Também torna explícitos casos de falha: derivada pequena, sistema mal condicionado, passo instável ou geometria inadequada.
+
+## Funcionalidades e módulos
+
+### Catálogo dos sete roteiros
+
+| Roteiro | Problema e mecanismos | O que observar |
 | --- | --- | --- |
-| [01 · Python](notebooks/01_introducao_python.ipynb) | Arrays, funções, máscaras, vetorização e erros | Asserções, tabela e gráfico |
-| [02 · Zeros e fractais](notebooks/02_zeros_fractais.ipynb) | Newton, raiz múltipla, ciclo e bacias complexas | Resíduos e pontos não convergidos explícitos |
-| [03 · Ponto flutuante, Gauss e PLU](notebooks/03_ponto_flutuante_gauss.ipynb) | Cancelamento, pivotamento, precisão reduzida e Hilbert | PA=LU, solução conhecida e resíduo normalizado |
-| [04 · DFT e FFT](notebooks/04_fft.ipynb) | Convenções, inversa, espectro, aliasing e custo | Comparação com NumPy e reconstrução do sinal |
-| [05 · Interpolação](notebooks/05_interpolacao_newton.ipynb) | Newton, baricêntrica, Chebyshev, Runge e splines | Reprodução polinomial e curvas de erro |
-| [06 · EDO e Chua](notebooks/06_edo_chua.ipynb) | Euler, Heun, RK4, estabilidade e pêndulo | Refinamento, energia e comparação com DOP853 |
-| [07 · GPS sintético](notebooks/07_gps_sintetico.ipynb) | Gauss–Newton, pseudodistâncias e ECEF/geodésicas | Referência sintética, ruído e geometria degenerada |
+| [01 · Python](notebooks/01_introducao_python.ipynb) | Arrays, funções, máscaras, vetorização e tratamento de erros | Asserções, tabelas e gráfico; introdução ao ambiente |
+| [02 · Zeros e fractais](notebooks/02_zeros_fractais.ipynb) | Newton real/complexo, raízes múltiplas, ciclos e bacias de atração | Resíduo, motivo de parada e pontos sem convergência |
+| [03 · Ponto flutuante e PLU](notebooks/03_ponto_flutuante_gauss.ipynb) | Cancelamento, Gauss, pivotamento, precisão reduzida e Hilbert | PA=LU, solução conhecida e resíduo relativo |
+| [04 · DFT e FFT](notebooks/04_fft.ipynb) | Transformada discreta, inversa, espectro, aliasing e custo | Reconstrução do sinal e comparação com NumPy |
+| [05 · Interpolação](notebooks/05_interpolacao_newton.ipynb) | Diferenças divididas, forma baricêntrica, Chebyshev, Runge e splines | Reprodução polinomial e curvas de erro |
+| [06 · EDO e Chua](notebooks/06_edo_chua.ipynb) | Euler, Heun, RK4, estabilidade, pêndulo e circuito de Chua | Refinamento de passo, energia e comparação com DOP853 |
+| [07 · GPS sintético](notebooks/07_gps_sintetico.ipynb) | Pseudodistâncias, Gauss–Newton, ECEF e coordenadas geodésicas | Efeito de ruído e de geometria degenerada |
 
-**[Catálogo detalhado dos notebooks →](notebooks/README.md)** · **[Acervo recuperado →](acervo/README.md)** · **[Galeria de resultados →](assets/README.md)**
+### Biblioteca didática
 
-## Objetivos pedagógicos em destaque
+[numericos/](numericos/README.md) contém seis famílias: `raizes`, `lineares`, `fourier`, `interpolacao`, `edo` e `gps`. Podem ser importadas a partir da raiz ou instaladas em modo editável. São implementações para entender o mecanismo, com validação de entradas e limites explícitos; não substituem de modo geral bibliotecas científicas de produção.
 
-A meta é **explicar quando uma aproximação é confiável e como demonstrar isso**:
+### Acervo recuperado
 
-- Distinguir erro, resíduo, tolerância e condicionamento.
-- Implementar um método e confrontá-lo com solução analítica ou referência independente.
-- Investigar convergência por refinamento e registrar motivos de falha.
-- Entender custo computacional antes de aumentar o tamanho de um problema.
-- Separar visualização atraente de evidência quantitativa.
-- Produzir uma execução reproduzível em ambiente e kernel novos.
+Os cinco arquivos em [acervo/](acervo/README.md) preservam os conteúdos recuperados, incluindo lacunas e limitações, com 477 células originais. Os créditos do material docente foram mantidos. Essa pasta **não é executada pelo exportador dos sete roteiros**. A introdução a Python da edição histórica não foi recuperada; o primeiro roteiro é uma substituição nova. O GPS é uma extensão desta edição.
 
-[OBJETIVOS_PEDAGOGICOS.md](docs/OBJETIVOS_PEDAGOGICOS.md) relaciona cada competência a uma atividade e a um critério de avaliação. Não há avaliação de eficácia pedagógica com participantes.
+## Como executar
 
-## Comece aqui
+```sh
+git clone https://github.com/luigiscofano/usp-metodos-numericos.git
+cd usp-metodos-numericos
+```
 
-| Quero… | Ler/abrir |
-| --- | --- |
-| Executar os notebooks | [Instalação e reprodução](docs/INSTALACAO.md) |
-| Saber o que veio da faculdade | [Procedência e inventário](docs/PROCEDENCIA.md) |
-| Entender os métodos e hipóteses | [Guia matemático](docs/METODOS.md) |
-| Conferir correções e complementos | [Decisões e diferenças](docs/CORRECOES.md) |
-| Avaliar os testes e limites | [Validação](docs/VALIDACAO.md) |
-| Navegar no código | [Biblioteca didática](numericos/README.md) |
-| Apresentar o projeto | [Roteiro de apresentação](docs/APRESENTACAO.md) |
-
-## Executar
-
-Use Python 3.12 e um ambiente virtual. Na raiz:
+Crie um ambiente com **Python 3.12**:
 
 ```sh
 python -m venv .venv
-# Linux/macOS: source .venv/bin/activate
-# Windows PowerShell: .venv\Scripts\Activate.ps1
+```
+
+Ative-o no terminal que você usa:
+
+| Sistema | Comando |
+| --- | --- |
+| Windows / PowerShell | `.\.venv\Scripts\Activate.ps1` |
+| Linux / macOS | `source .venv/bin/activate` |
+
+Se seu sistema oferece apenas `python3`, use esse nome ao criar o ambiente. A partir daqui, execute os comandos na raiz do repositório, com o ambiente ativado.
+
+```sh
 python -m pip install -r requirements.txt
+```
+
+Registre o kernel usado pelo executor dos notebooks:
+
+```sh
 python -m ipykernel install --user --name python3 --display-name "Python 3"
+```
+
+
+### Testar, validar o acervo e executar os roteiros
+
+```sh
 python -m pytest -q
+python scripts/verificar_acervo.py
 python scripts/executar_notebooks.py
 ```
 
-O último comando executa cada notebook de estudo em kernel novo e exporta HTML, JSON de resultados e `.ipynb` executados para `build/`. **Não executa o acervo histórico**, que mantém problemas e lacunas identificados. Para ambientes sem servidor/kernel Jupyter disponível, há a alternativa documentada `python scripts/executar_sem_kernel.py`.
+O último comando inicia um kernel novo para cada notebook e deve informar `PASS` para os sete roteiros. Os arquivos executados, versões HTML e `resultados-notebooks.json` ficam em `build/`; figuras SVG ficam em `assets/figuras/`. Abra os HTMLs no navegador para ler os resultados sem instalar uma interface Jupyter.
 
-Não há downloads de dados, montagem de Drive, credenciais ou chamadas a serviços externos durante os experimentos. Os dados são analíticos ou sintéticos com seeds explícitas.
+Para uso interativo, abra um `.ipynb` em um editor compatível e selecione o Python do ambiente preparado. JupyterLab pode ser instalado à parte; ele não é necessário para a exportação acima.
 
-## Organização
+### Usar um método diretamente
 
-| Diretório | Função |
+```sh
+python -c "from numericos.raizes import newton; print(newton(lambda x: x*x-2, lambda x: 2*x, 1.0))"
+```
+
+A aproximação deve ficar próxima de √2; examine também o critério de término e os campos retornados. Não use apenas um gráfico como prova de convergência.
+
+### Ambiente sem kernel disponível
+
+`python scripts/executar_sem_kernel.py` executa as células com IPython em um processo novo por roteiro. É uma alternativa documentada, mas não valida o protocolo Jupyter. O executor padrão e a CI fazem essa verificação separadamente.
+
+### Problemas frequentes
+
+| Sintoma | O que conferir |
 | --- | --- |
-| [notebooks/](notebooks/README.md) | Sete roteiros de estudo executáveis |
-| [acervo/](acervo/README.md) | Cinco versões recuperadas e sanitizadas; 477 células originais |
-| [numericos/](numericos/README.md) | Implementações reutilizáveis de seis famílias de métodos |
-| [tests/](tests/README.md) | Testes com soluções conhecidas, referências e casos de falha |
-| [docs/](docs/README.md) | Matemática, objetivos, procedência, validação e apresentação |
-| [scripts/](scripts/README.md) | Validação do acervo e execução/exportação |
-| [assets/](assets/README.md) | Figuras científicas produzidas pelos notebooks |
+| Kernel `python3` ausente | Registro do kernel no ambiente utilizado |
+| Importação de `numericos` falha | Diretório corrente e ambiente; opcionalmente `python -m pip install -e .` |
+| FFT rejeita tamanho 3 | Esta implementação radix-2 exige potência de dois |
+| DFT rejeita entrada grande | Limite intencional de memória da matriz densa |
+| EDO ou Newton não convergem | Passo, derivada, condição inicial e motivo de parada; não suprima o erro para aprovar o resultado |
 
-As dependências diretas do ambiente de reprodução estão fixadas em `requirements.txt`; o pacote didático e seus intervalos de compatibilidade estão em `pyproject.toml`. Isso não equivale a um lock completo de dependências transitivas.
+## O que desenvolvi e aprendi
 
-## Validação confirmada
+A edição de estudo reúne biblioteca, roteiros reelaborados, experimentos, figuras, testes e exportação. A [procedência](docs/PROCEDENCIA.md) identifica o que foi recuperado e o que foi implementado nesta edição, sem atribuir os materiais docentes exclusivamente ao aluno.
 
-**29 testes aprovados em Linux, macOS e Windows; sete notebooks executados com kernel Jupyter novo.** [Execução confirmada](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656) · [Baixar HTMLs, notebooks executados e figuras](https://github.com/luigiscofano/usp-metodos-numericos/actions/runs/41222104656/artifacts/13050262644). O artefato da CI tem retenção de 90 dias e pode exigir login no GitHub; os fontes permanecem neste repositório.
+**Objetivos pedagógicos:** distinguir erro e resíduo; explicar condicionamento; investigar convergência por refinamento; comparar um método com referência independente; estimar custo antes de aumentar o problema; repetir a execução em ambiente e kernel novos. O [guia pedagógico](docs/OBJETIVOS_PEDAGOGICOS.md) relaciona essas competências a atividades verificáveis.
 
-## Histórico de organização
+## Estado atual
 
-As entregas estão divididas por biblioteca numérica, notebooks, acervo, testes/automação e documentação. As branches e os [PRs integrados](docs/PUBLICACAO.md) registram mudanças reais desta edição, sem datas retroativas ou revisões fictícias. [Guia de contribuição](CONTRIBUTING.md).
+| Disponível | Limite / evolução |
+| --- | --- |
+| Sete roteiros, biblioteca e figuras | Edição de estudo, distinta dos arquivos históricos |
+| 29 testes e execução automatizada dos notebooks | Dependências diretas fixadas, sem lock completo de transitivas |
+| Dados analíticos/sintéticos, seeds explícitas | Sem dados GNSS reais ou validação física do GPS |
+| Métodos e falhas documentados | FFT radix-2, DFT densa limitada, EDO de passo fixo e GPS simplificado |
 
-**Limites principais:** implementações para estudo, aritmética finita, FFT radix-2, DFT densa com limite de memória, EDO de passo fixo e GPS simplificado. Não são substitutos gerais para bibliotecas científicas de produção nem para validação física.
+## Validação e limites
+
+A CI inclui testes em Linux, macOS e Windows e execução com kernel Jupyter. Consulte [VALIDACAO.md](docs/VALIDACAO.md) e o badge para a evidência da versão testada. Os experimentos não precisam de credenciais, montagem de Drive ou download de dados. Os artefatos de CI têm retenção limitada; os fontes e figuras permanecem versionados.
+
+## Documentação e navegação
+
+[Catálogo dos notebooks](notebooks/README.md) · [Biblioteca](numericos/README.md) · [Acervo](acervo/README.md) · [Testes](tests/README.md) · [Scripts](scripts/README.md) · [Figuras](assets/README.md) · [Documentação](docs/README.md) · [Guia matemático](docs/METODOS.md) · [Correções](docs/CORRECOES.md) · [Apresentação](docs/APRESENTACAO.md) · [PRs](docs/PUBLICACAO.md)
+
+
+## Autoria, referências e licença
+
+**Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334.** Fontes recuperados, componentes de terceiros e trabalhos em grupo mantêm os créditos indicados nos arquivos e na documentação.
+
+[Procedência](docs/PROCEDENCIA.md) · [Como contribuir](CONTRIBUTING.md) · [Mudanças](CHANGELOG.md)
+
+## Tópicos do repositório
+
+`python` · `jupyter-notebook` · `numerical-methods` · `scientific-computing` · `linear-algebra` · `fft` · `interpolation` · `differential-equations` · `gps` · `numpy` · `usp`

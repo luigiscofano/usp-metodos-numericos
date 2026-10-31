@@ -1,5 +1,13 @@
 # Biblioteca didática
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** métodos reutilizáveis por tema, que apoiam os notebooks sem exigir a execução de todos os roteiros.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** métodos reutilizáveis por tema, que apoiam os notebooks sem exigir a execução de todos os roteiros.
+
 Os módulos desta pasta foram implementados nesta edição e são usados pelos notebooks de estudo. Não dependem dos arquivos do acervo.
 
 | Módulo | API principal | Decisão importante |
@@ -22,3 +30,11 @@ Os módulos desta pasta foram implementados nesta edição e são usados pelos n
 - GPS usa pseudodistâncias positivas e ao menos quatro observações com Jacobiano de posto quatro. Gauss–Newton pode falhar para chutes ou geometrias inadequadas.
 
 Veja [métodos e complexidade](../docs/METODOS.md) e [testes](../tests/README.md).
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `numericos/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `numericos/`.

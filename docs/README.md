@@ -1,5 +1,13 @@
 # Documentação
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** guias de arquitetura, reprodução, decisões e evidências; os exemplos executáveis e o estado consolidado estão na raiz.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** guias de arquitetura, reprodução, decisões e evidências; os exemplos executáveis e o estado consolidado estão na raiz.
+
 | Documento | Finalidade |
 | --- | --- |
 | **[Objetivos pedagógicos](OBJETIVOS_PEDAGOGICOS.md)** | Competências, atividades e critérios observáveis |
@@ -13,3 +21,11 @@
 | [Inventário](inventario.json) | Relação dos arquivos recuperados e checksums de referência |
 
 Leitura sugerida: procedência → objetivos → um notebook → métodos → validação. Para apenas executar, comece pela instalação.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `docs/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `docs/`.

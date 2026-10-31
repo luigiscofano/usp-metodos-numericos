@@ -1,5 +1,13 @@
 # Execução, validação e exportação
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** ferramentas de reprodução e verificação, executadas a partir da raiz conforme as dependências do projeto.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** ferramentas de reprodução e verificação, executadas a partir da raiz conforme as dependências do projeto.
+
 | Script | Uso |
 | --- | --- |
 | `verificar_acervo.py` | Valida formato, inventário e ausência de outputs/imagens/links privados no acervo |
@@ -11,3 +19,11 @@ Ambos os executores param a aprovação de um notebook quando uma célula falha 
 `--atualizar` substitui as saídas textuais e os contadores dos arquivos de estudo depois da execução, mantendo as imagens em SVG na pasta de figuras. Examine o diff antes de versionar. O acervo histórico não é alterado por esses executores.
 
 O modo sem kernel foi incluído porque a sandbox local não permitiu iniciar a comunicação do kernel Jupyter. Ele não é descrito como equivalente a um teste de integração do protocolo Jupyter. O workflow remoto usa o executor com kernel.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `scripts/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `scripts/`.

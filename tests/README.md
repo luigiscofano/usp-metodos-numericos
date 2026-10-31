@@ -1,5 +1,13 @@
 # Testes numéricos
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** testes e seus critérios de aprovação; um resultado deve ser interpretado dentro da cobertura documentada.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** testes e seus critérios de aprovação; um resultado deve ser interpretado dentro da cobertura documentada.
+
 Execute `python -m pytest -q` a partir da raiz. São **29 casos parametrizados** na suíte atual.
 
 | Família | Oráculo e casos de borda |
@@ -15,3 +23,11 @@ Execute `python -m pytest -q` a partir da raiz. São **29 casos parametrizados**
 | Geodesia/GPS | Ida/volta em posições sintéticas, polos, referência exata e geometria degenerada |
 
 Asserções dentro dos notebooks verificam seus próprios experimentos. O teste de ordem usa razões com margens, não tempos de execução. A suíte não faz prova formal de correção nem cobre todas as entradas possíveis.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `tests/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `tests/`.

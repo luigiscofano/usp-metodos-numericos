@@ -1,5 +1,13 @@
 # Galeria de resultados
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** figuras e evidências visuais; imagens ilustrativas e resultados de execução devem ser distinguidos conforme a legenda.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** figuras e evidências visuais; imagens ilustrativas e resultados de execução devem ser distinguidos conforme a legenda.
+
 Todas as figuras abaixo foram produzidas pelo código dos notebooks de estudo. Não são imagens históricas extraídas do material da disciplina.
 
 | Tema | Figuras |
@@ -22,3 +30,11 @@ Todas as figuras abaixo foram produzidas pelo código dos notebooks de estudo. N
 ![Retrato de fase do modelo de Chua](figuras/06_chua.svg)
 
 Os gráficos devem ser lidos com as unidades, parâmetros, critérios e limites dos notebooks correspondentes. Aparência visual não substitui uma medida de erro ou uma análise de estabilidade.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `assets/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `assets/`.

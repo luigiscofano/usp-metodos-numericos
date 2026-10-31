@@ -1,5 +1,13 @@
 # Catálogo dos notebooks de estudo
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** roteiros com texto, código e resultados; confira se esta pasta contém a edição executável ou material preservado.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** roteiros com texto, código e resultados; confira se esta pasta contém a edição executável ou material preservado.
+
 Todos os roteiros deste diretório foram preparados/reelaborados nesta edição, em 2026. Os conteúdos recuperados de 2025 estão preservados separadamente em [acervo/](../acervo/README.md). Os dois conjuntos não devem ser confundidos.
 
 | Ordem | Notebook | Pré-requisito | Pergunta central |
@@ -25,3 +33,11 @@ O exportador de kernel Jupyter gera versões completas executadas e HTML em `bui
 - **07:** extensão nova com dados sintéticos; não houve recuperação de um notebook histórico de GPS.
 
 O acervo e os roteiros somam 12 notebooks disponíveis nesta edição. Há ainda um título histórico identificado, com recuperação pendente.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `notebooks/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `notebooks/`.

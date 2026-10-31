@@ -1,5 +1,13 @@
 # Acervo recuperado — versões sanitizadas
 
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** material recuperado, com sua origem e limitações; não confunda preservação histórica com aprovação pela suíte atual.
+
+[Início](../README.md) · [Como executar](../README.md#como-executar) · [Aprendizagem](../README.md#o-que-desenvolvi-e-aprendi) · [Estado atual](../README.md#estado-atual)
+
+> **Nesta área:** material recuperado, com sua origem e limitações; não confunda preservação histórica com aprovação pela suíte atual.
+
 Cinco notebooks completos foram baixados pelos seus destinos reais no Colab. Os atalhos inicialmente vistos no Drive não eram os arquivos `.ipynb` em si.
 
 | Arquivo | Células no arquivo recuperado | Células de código | Situação |
@@ -24,3 +32,11 @@ Os arquivos deste diretório **não foram corrigidos nem executados automaticame
 Os notebooks de zeros/fractais e ponto flutuante/Gauss contêm crédito explícito ao **Prof. Pedro Peixoto**, preservado nas células iniciais sem divulgar seu contato. Os demais materiais pertencem ao contexto da disciplina; não há uma atribuição individual inequívoca em todas as células. A cópia do aluno inclui material fornecido e respostas, por isso não se atribui todo o conteúdo exclusivamente ao titular do portfólio.
 
 [Inventário com checksums](../docs/inventario.json) · [Procedência detalhada](../docs/PROCEDENCIA.md)
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `acervo/`.
+
+---
+
+**Projeto:** [Métodos Numéricos · Sete experimentos reproduzíveis](../README.md). Consulte a raiz para os requisitos e o primeiro comando; este guia aprofunda a área `acervo/`.
