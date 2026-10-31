@@ -1,0 +1,32 @@
+[
+  {
+    "arquivo": "02_zeros_fractais.ipynb",
+    "celulas_originais": 74,
+    "imagens_omitidas": 1,
+    "estado": "sanitizado; não executado nem corrigido"
+  },
+  {
+    "arquivo": "03_ponto_flutuante_gauss.ipynb",
+    "celulas_originais": 109,
+    "imagens_omitidas": 3,
+    "estado": "sanitizado; não executado nem corrigido"
+  },
+  {
+    "arquivo": "04_fft.ipynb",
+    "celulas_originais": 76,
+    "imagens_omitidas": 0,
+    "estado": "sanitizado; não executado nem corrigido"
+  },
+  {
+    "arquivo": "05_interpolacao_newton.ipynb",
+    "celulas_originais": 127,
+    "imagens_omitidas": 0,
+    "estado": "sanitizado; não executado nem corrigido"
+  },
+  {
+    "arquivo": "06_edo_chua.ipynb",
+    "celulas_originais": 91,
+    "imagens_omitidas": 4,
+    "estado": "sanitizado; não executado nem corrigido"
+  }
+]
