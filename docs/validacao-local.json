@@ -1,0 +1,81 @@
+{
+  "data": "2026-10-31",
+  "testes_pytest": {
+    "aprovados": 29
+  },
+  "modo_notebooks": "IPython em um processo novo por notebook; sem servidor/kernel Jupyter",
+  "notebooks": [
+    {
+      "notebook": "01_introducao_python.ipynb",
+      "passou": true,
+      "celulas_codigo": 4,
+      "figuras": [
+        "01_python.svg"
+      ],
+      "segundos": 1.313
+    },
+    {
+      "notebook": "02_zeros_fractais.ipynb",
+      "passou": true,
+      "celulas_codigo": 4,
+      "figuras": [
+        "02_bacias.svg",
+        "02_convergencia.svg"
+      ],
+      "segundos": 1.655
+    },
+    {
+      "notebook": "03_ponto_flutuante_gauss.ipynb",
+      "passou": true,
+      "celulas_codigo": 5,
+      "figuras": [
+        "03_cancelamento.svg"
+      ],
+      "segundos": 1.664
+    },
+    {
+      "notebook": "04_fft.ipynb",
+      "passou": true,
+      "celulas_codigo": 4,
+      "figuras": [
+        "04_aliasing.svg",
+        "04_espectro.svg"
+      ],
+      "segundos": 1.43
+    },
+    {
+      "notebook": "05_interpolacao_newton.ipynb",
+      "passou": true,
+      "celulas_codigo": 5,
+      "figuras": [
+        "05_erros.svg",
+        "05_runge.svg"
+      ],
+      "segundos": 2.143
+    },
+    {
+      "notebook": "06_edo_chua.ipynb",
+      "passou": true,
+      "celulas_codigo": 6,
+      "figuras": [
+        "06_chua.svg",
+        "06_estabilidade.svg",
+        "06_ordens.svg",
+        "06_pendulo.svg",
+        "06_resistencias.svg"
+      ],
+      "segundos": 3.772
+    },
+    {
+      "notebook": "07_gps_sintetico.ipynb",
+      "passou": true,
+      "celulas_codigo": 4,
+      "figuras": [
+        "07_gps_erro.svg"
+      ],
+      "segundos": 1.234
+    }
+  ],
+  "kernel_jupyter": "não concluído localmente: comunicação bloqueada pela sandbox",
+  "github_actions": "configurado; publicação/execução remota pendente"
+}
