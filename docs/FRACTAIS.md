@@ -33,3 +33,7 @@ Ponto que não escapou no orçamento não é certificado como membro do conjunto
 ## Galeria
 
 As cinco figuras estão incorporadas nas saídas do [notebook executado](../notebooks/08_fractais_exploracao.ipynb), em cada seção correspondente. Execute-o para exportar os cinco PNGs individuais.
+
+## Galeria editorial aprovada
+
+Veja a [coleção de cinco imagens](../assets/fractais/README.md), também exibida no README principal, na ordem Barnsley, Julia, Newton, Burning Ship e Mandelbrot. Essa seleção preserva versões visuais aprovadas de diferentes etapas: não confundir seus parâmetros com os padrões do notebook acima. O guia da coleção registra a origem e os limites de cada figura.

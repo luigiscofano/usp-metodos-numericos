@@ -1,0 +1,47 @@
+[
+  {
+    "arquivo": "barnsley.png",
+    "titulo": "Samambaia de Barnsley",
+    "sha256": "448139f4516dd8555c275e1ce52c9621045884e7ae305c5cf59ece814f34ddb1",
+    "dimensoes": [
+      2160,
+      1620
+    ]
+  },
+  {
+    "arquivo": "julia.png",
+    "titulo": "Conjunto de Julia",
+    "sha256": "fd31f9252cabd9e06df8991c1cb7bd8464d03a113497773e77523c5239e77d1d",
+    "dimensoes": [
+      2160,
+      1620
+    ]
+  },
+  {
+    "arquivo": "newton.png",
+    "titulo": "Bacias de Newton",
+    "sha256": "015e0d07d648b8b6a32071b74641d8f4deb812207c86812a29c7f1f738640d31",
+    "dimensoes": [
+      2160,
+      1620
+    ]
+  },
+  {
+    "arquivo": "burning-ship.png",
+    "titulo": "Burning Ship",
+    "sha256": "e0b76bd75d22820f03d38c67e36c90a7a517db1f43e32e898112e8a3a57d711b",
+    "dimensoes": [
+      2160,
+      1620
+    ]
+  },
+  {
+    "arquivo": "mandelbrot.png",
+    "titulo": "Conjunto de Mandelbrot",
+    "sha256": "1780d4b4df9427ccef04c073f6d04c72a09b656e7096ecf50ac413eb9916c2fd",
+    "dimensoes": [
+      2160,
+      1620
+    ]
+  }
+]
