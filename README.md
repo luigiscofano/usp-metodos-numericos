@@ -14,6 +14,10 @@
 
 Um notebook mistura texto, fórmulas, código e resultados. Ele pode ser lido no GitHub, aberto em um editor Jupyter ou executado automaticamente para gerar HTML. Os roteiros de estudo são independentes; não é preciso executar os sete para usar apenas um método da biblioteca.
 
+## Estudo complementar: fractais
+
+Além dos sete roteiros originais desta edição, o [notebook 08 · Fractais](notebooks/08_fractais_exploracao.ipynb) explora Mandelbrot, Julia, Burning Ship, Barnsley e bacias de Newton, com código comentado, resultados incorporados e testes. [Guia, parâmetros, limitações e cinco imagens](docs/FRACTAIS.md). É um estudo novo, separado do acervo histórico.
+
 ## Qual problema resolve
 
 Computadores representam números com precisão finita e frequentemente resolvem problemas por aproximação. O projeto ajuda a distinguir uma resposta que apenas parece plausível de uma aproximação sustentada por critérios de erro, convergência e referência. Também torna explícitos casos de falha: derivada pequena, sistema mal condicionado, passo instável ou geometria inadequada.
