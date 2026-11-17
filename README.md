@@ -18,6 +18,30 @@ Um notebook mistura texto, fórmulas, código e resultados. Ele pode ser lido no
 
 Além dos sete roteiros originais desta edição, o [notebook 08 · Fractais](notebooks/08_fractais_exploracao.ipynb) explora Mandelbrot, Julia, Burning Ship, Barnsley e bacias de Newton, com código comentado, resultados incorporados e testes. [Guia, parâmetros, limitações e cinco imagens](docs/FRACTAIS.md). É um estudo novo, separado do acervo histórico.
 
+### Galeria de fractais
+
+[Origem, parâmetros e arquivos da coleção](assets/fractais/README.md). As imagens abaixo usam as versões visuais aprovadas; os parâmetros diferem em parte do notebook didático 08.
+
+#### Samambaia de Barnsley
+
+![Samambaia de Barnsley: visualização numérica com eixos e fórmula](assets/fractais/barnsley.png)
+
+#### Conjunto de Julia
+
+![Conjunto de Julia: visualização numérica com eixos e fórmula](assets/fractais/julia.png)
+
+#### Bacias de Newton
+
+![Bacias de Newton: visualização numérica com eixos e fórmula](assets/fractais/newton.png)
+
+#### Burning Ship
+
+![Burning Ship: visualização numérica com eixos e fórmula](assets/fractais/burning-ship.png)
+
+#### Conjunto de Mandelbrot
+
+![Conjunto de Mandelbrot: visualização numérica com eixos e fórmula](assets/fractais/mandelbrot.png)
+
 ## Qual problema resolve
 
 Computadores representam números com precisão finita e frequentemente resolvem problemas por aproximação. O projeto ajuda a distinguir uma resposta que apenas parece plausível de uma aproximação sustentada por critérios de erro, convergência e referência. Também torna explícitos casos de falha: derivada pequena, sistema mal condicionado, passo instável ou geometria inadequada.
