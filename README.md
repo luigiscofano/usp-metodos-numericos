@@ -16,6 +16,9 @@ Um notebook mistura texto, fórmulas, código e resultados. Ele pode ser lido no
 
 ## Estudo complementar: fractais
 
+<details>
+<summary>Expandir estudo complementar: fractais</summary>
+
 Além dos sete roteiros originais desta edição, o [notebook 08 · Fractais](notebooks/08_fractais_exploracao.ipynb) explora Mandelbrot, Julia, Burning Ship, Barnsley e bacias de Newton, com código comentado, resultados incorporados e testes. [Guia, parâmetros, limitações e cinco imagens](docs/FRACTAIS.md). É um estudo novo, separado do acervo histórico.
 
 ### Galeria de fractais
@@ -42,11 +45,27 @@ Além dos sete roteiros originais desta edição, o [notebook 08 · Fractais](no
 
 ![Conjunto de Mandelbrot: visualização numérica com eixos e fórmula](assets/fractais/mandelbrot.png)
 
+
+</details>
+
+---
+
 ## Qual problema resolve
+
+<details>
+<summary>Expandir qual problema resolve</summary>
 
 Computadores representam números com precisão finita e frequentemente resolvem problemas por aproximação. O projeto ajuda a distinguir uma resposta que apenas parece plausível de uma aproximação sustentada por critérios de erro, convergência e referência. Também torna explícitos casos de falha: derivada pequena, sistema mal condicionado, passo instável ou geometria inadequada.
 
+
+</details>
+
+---
+
 ## Funcionalidades e módulos
+
+<details>
+<summary>Expandir funcionalidades e módulos</summary>
 
 ### Catálogo dos sete roteiros
 
@@ -68,7 +87,15 @@ Computadores representam números com precisão finita e frequentemente resolvem
 
 Os cinco arquivos em [acervo/](acervo/README.md) preservam os conteúdos recuperados, incluindo lacunas e limitações, com 477 células originais. Os créditos do material docente foram mantidos. Essa pasta **não é executada pelo exportador dos sete roteiros**. A introdução a Python da edição histórica não foi recuperada; o primeiro roteiro é uma substituição nova. O GPS é uma extensão desta edição.
 
+
+</details>
+
+---
+
 ## Como executar
+
+<details>
+<summary>Expandir como executar</summary>
 
 ```sh
 git clone https://github.com/luigiscofano/usp-metodos-numericos.git
@@ -135,13 +162,29 @@ A aproximação deve ficar próxima de √2; examine também o critério de tér
 | DFT rejeita entrada grande | Limite intencional de memória da matriz densa |
 | EDO ou Newton não convergem | Passo, derivada, condição inicial e motivo de parada; não suprima o erro para aprovar o resultado |
 
+
+</details>
+
+---
+
 ## O que desenvolvi e aprendi
+
+<details>
+<summary>Expandir o que desenvolvi e aprendi</summary>
 
 A edição de estudo reúne biblioteca, roteiros reelaborados, experimentos, figuras, testes e exportação. A [procedência](docs/PROCEDENCIA.md) identifica o que foi recuperado e o que foi implementado nesta edição, sem atribuir os materiais docentes exclusivamente ao aluno.
 
 **Objetivos pedagógicos:** distinguir erro e resíduo; explicar condicionamento; investigar convergência por refinamento; comparar um método com referência independente; estimar custo antes de aumentar o problema; repetir a execução em ambiente e kernel novos. O [guia pedagógico](docs/OBJETIVOS_PEDAGOGICOS.md) relaciona essas competências a atividades verificáveis.
 
+
+</details>
+
+---
+
 ## Estado atual
+
+<details>
+<summary>Expandir estado atual</summary>
 
 | Disponível | Limite / evolução |
 | --- | --- |
@@ -150,21 +193,58 @@ A edição de estudo reúne biblioteca, roteiros reelaborados, experimentos, fig
 | Dados analíticos/sintéticos, seeds explícitas | Sem dados GNSS reais ou validação física do GPS |
 | Métodos e falhas documentados | FFT radix-2, DFT densa limitada, EDO de passo fixo e GPS simplificado |
 
+
+</details>
+
+---
+
 ## Validação e limites
+
+<details>
+<summary>Expandir validação e limites</summary>
 
 A CI inclui testes em Linux, macOS e Windows e execução com kernel Jupyter. Consulte [VALIDACAO.md](docs/VALIDACAO.md) e o badge para a evidência da versão testada. Os experimentos não precisam de credenciais, montagem de Drive ou download de dados. Os artefatos de CI têm retenção limitada; os fontes e figuras permanecem versionados.
 
+
+</details>
+
+---
+
 ## Documentação e navegação
+
+<details>
+<summary>Expandir documentação e navegação</summary>
 
 [Catálogo dos notebooks](notebooks/README.md) · [Biblioteca](numericos/README.md) · [Acervo](acervo/README.md) · [Testes](tests/README.md) · [Scripts](scripts/README.md) · [Figuras](assets/README.md) · [Documentação](docs/README.md) · [Guia matemático](docs/METODOS.md) · [Correções](docs/CORRECOES.md) · [Apresentação](docs/APRESENTACAO.md) · [PRs](docs/PUBLICACAO.md)
 
 
+
+</details>
+
+---
+
 ## Autoria, referências e licença
+
+<details>
+<summary>Expandir autoria, referências e licença</summary>
 
 **Luigi Scofano de Araujo · Engenharia de Computação, Poli-USP · USP 13680334.** Fontes recuperados, componentes de terceiros e trabalhos em grupo mantêm os créditos indicados nos arquivos e na documentação.
 
 [Procedência](docs/PROCEDENCIA.md) · [Como contribuir](CONTRIBUTING.md) · [Mudanças](CHANGELOG.md)
 
+
+</details>
+
+---
+
 ## Tópicos do repositório
 
+<details>
+<summary>Expandir tópicos do repositório</summary>
+
 `python` · `jupyter-notebook` · `numerical-methods` · `scientific-computing` · `linear-algebra` · `fft` · `interpolation` · `differential-equations` · `gps` · `numpy` · `usp`
+
+</details>
+
+---
+
